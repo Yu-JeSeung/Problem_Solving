@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		197BB113296CEC0D00B7291F /* 1929.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 197BB112296CEC0500B7291F /* 1929.cpp */; };
+		19EAA3D5296D384700265B62 /* 11653.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 197BB114296D1B4A00B7291F /* 11653.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +32,7 @@
 		197BB10C296BB83300B7291F /* 15552.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 15552.cpp; sourceTree = "<group>"; };
 		197BB110296CE60A00B7291F /* 1978.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1978.cpp; sourceTree = "<group>"; };
 		197BB112296CEC0500B7291F /* 1929.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1929.cpp; sourceTree = "<group>"; };
+		197BB114296D1B4A00B7291F /* 11653.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 11653.cpp; sourceTree = "<group>"; };
 		19AB3EFB296291110072754F /* 백준 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "백준"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19AB3F08296292F90072754F /* 2441.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2441.cpp; sourceTree = "<group>"; };
 		19AB3F0A296294820072754F /* 2442.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2442.cpp; sourceTree = "<group>"; };
@@ -55,6 +56,7 @@
 			children = (
 				197BB110296CE60A00B7291F /* 1978.cpp */,
 				197BB112296CEC0500B7291F /* 1929.cpp */,
+				197BB114296D1B4A00B7291F /* 11653.cpp */,
 				197BB108296BAA1300B7291F /* 11382.cpp */,
 				197BB10A296BAD8200B7291F /* 10926.cpp */,
 				197BB10C296BB83300B7291F /* 15552.cpp */,
@@ -135,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				197BB113296CEC0D00B7291F /* 1929.cpp in Sources */,
+				19EAA3D5296D384700265B62 /* 11653.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +256,9 @@
 		19AB3F03296291110072754F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -262,7 +266,9 @@
 		19AB3F04296291110072754F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
